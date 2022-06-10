@@ -1,39 +1,20 @@
 #!/usr/bin/env bash
-
 # This script is displaying
 
-
-
 min="0"
-
 hour="0"
-
 i="min"
-
 m="hour"
 
-
-
 while [ "$i" -le 59 ]
-      
 do
-    
     if [ "$i" = 0 ]
-       
     then
-	
-	echo "Hour: $m"
-	
+echo "Hour: $m"
 	((m++))
-	
     elif [ "$i" = 59 ]
-	 
     then
-	
-	return 0
-	
+return 0
     else ((i++))
-	 
     fi
-    
 done
