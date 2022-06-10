@@ -8,9 +8,9 @@ if [ "$i" = 4 ]
    then
         echo "bad luck"
 	elif ["$i" = 8 ]
-	echo "good luck"
-	((i++))
-	else
+	     then
+	     echo "good luck"
+		else
 	echo "Best School"
 	((i++))
 	fi
