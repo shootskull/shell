@@ -9,7 +9,8 @@ while [ "$i" -le 59 ]
 do
     if [ "$i" = 0 ]
     then
-echo "Hour: $m"
+	echo "Hour: $m"
+	((i++))
 	((m++))
     elif [ "$i" = 59 ]
     then
