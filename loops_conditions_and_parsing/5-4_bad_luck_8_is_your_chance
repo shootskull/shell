@@ -10,7 +10,8 @@ if [ "$i" = 4 ]
 	elif ["$i" = 8 ]
 	echo "good luck"
 	((i++))
-	fi
+	else
 	echo "Best School"
 	((i++))
+	fi
 	done
