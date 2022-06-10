@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 # This script is displaying
 
-min="0"
-hour="0"
-i="min"
-m="hour"
+
+i="0"
+m="0"
 
 while [ "$i" -le 59 ]
 do
