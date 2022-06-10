@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # This script is displaying
 
-min=0
-hour=-1
+min="0"
+hour="-1"
 
 while [ "$min" -le 59]
 do
