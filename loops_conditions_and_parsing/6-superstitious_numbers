@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script is displaying
+i="0"
+
+while [ "$i" -le  19 ]
+do
+	echo "$i"
+
+done
