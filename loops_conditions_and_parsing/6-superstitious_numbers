@@ -4,6 +4,7 @@ i="0"
 
 while [ "$i" -le  19 ]
 do
-	echo "$i"
-
+case $i in
+    -a) 
+((i++))
 done

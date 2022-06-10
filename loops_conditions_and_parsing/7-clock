@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# This script is displaying
+
+min=0
+hour=-1
+
+while [ "$min" -le 59]
+do
+	if [ "$min" = 0 ]
+	((m++))
+		echo "Hour: $hour"
+		fi
+		((i++))
+		echo "$i"
+done
