@@ -4,9 +4,10 @@
 min="0"
 hour="-1"
 
-while [ "$min" -le 59]
+while [ "$min" -le 59 ]
 do
-	if [ "$min" = 0 ]
+    if [ "$min" = 0 ]
+       then
 	((m++))
 		echo "Hour: $hour"
 		fi
