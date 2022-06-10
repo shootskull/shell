@@ -1,20 +1,16 @@
 #!/usr/bin/env bash
 # This script is displaying
 
+h=0
 
-i="0"
-m="0"
-
-while [ "$i" -le 59 ]
+while [ $h -le 12 ]
 do
-    if [ "$i" = 0 ]
-    then
-	echo "Hour: $m"
-	((i++))
-	((m++))
-    elif [ "$i" = 59 ]
-    then
-return 0
-    else ((i++))
-    fi
-done
+    m=1
+    echo "Hour: $h"
+    while [ $m -le 59 ]
+    do
+	echo "$m"
+	m=$((m+1))
+    done
+    h=$((h+1))
+    done
